@@ -648,6 +648,10 @@ a:hover, a:focus {
   padding-top: 0 !important;
 }
 
+.padding-top {
+  padding-top: 30px;
+}
+
 .margin-bottom {
  margin-bottom: 30px !important;
 }
@@ -655,6 +659,10 @@ a:hover, a:focus {
 .padd-right-only-lg {
   padding-right: 30px;
   padding-left: 0;
+}
+
+.padd-bottom {
+  padding-bottom: 30px;
 }
 
 .no-padd-top-bottom {
