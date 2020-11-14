@@ -213,6 +213,10 @@ a:hover, a:focus {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.overlay {
+  z-index: 100;
+}
+
 .vertical-align {
   position: absolute;
   width: 100%;
@@ -649,7 +653,11 @@ a:hover, a:focus {
 }
 
 .padding-top {
-  padding-top: 30px;
+  padding-top: 70px;
+}
+
+.margin-top {
+  margin-top: 20px;
 }
 
 .margin-bottom {
@@ -4601,6 +4609,10 @@ a:hover, a:focus {
           align-items: center;
 }
 
+.top-banner-img {
+  background-image: url("img/inMotionOffice.gif");
+}
+
 .interior-banner {
   min-height: 20vh;
 }
@@ -6759,6 +6771,24 @@ a:hover, a:focus {
   .services-detailed .post-content h1, .services-detailed .post-content h2, .services-detailed .post-content h3, .services-detailed .post-content h4, .services-detailed .post-content h5, .services-detailed .post-content h6 {
     margin-left: 0;
   }
+}
+
+/* Parallax banner - Custom made for parallax banner */
+.parallax-img-container {
+  background-color: #3f3f3f;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.parallax-main-banner {
+  background-image: url("/img/inMotionOffice.gif");
+  background-color: #3f3f3f;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
 }
 
 /*-------------------------------------------------------*/
@@ -11111,7 +11141,6 @@ a:hover, a:focus {
 
 .project-detail-parallax.touch .project-detail-parallax-item .detail-parallax-item-bg {
   display: block;
-  height: 100%;
   left: 0;
   opacity: 1;
   position: absolute;
@@ -11181,7 +11210,7 @@ a:hover, a:focus {
   position: relative;
   text-align: center;
   width: 100%;
-  z-index: 5;
+  /* z-index: 5; */
 }
 
 .project-detail-parallax-item .detail-parallax-item-bg {
@@ -11226,7 +11255,7 @@ a:hover, a:focus {
   max-width: 970px;
   min-height: 240px;
   padding: 20px 15px;
-  background-color: #111111;
+  /* background-color: #111111; */
   z-index: 10;
 }
 
