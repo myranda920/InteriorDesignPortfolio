@@ -3623,6 +3623,20 @@ a:hover, a:focus {
   color: #111111;
 }
 
+.about-me-a {
+  display: inline-block;
+  opacity: 0.6;
+  text-transform: uppercase;
+  -webkit-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+  color: #111111;
+}
+
+.about-me-a:hover{
+  opacity: 1;
+}
+
 .main-menu li:hover a, .main-menu li:focus a, .main-menu li.current-menu-item a, .main-menu li.current-menu-parent a, .main-menu li.current-menu-ancestor a {
   opacity: 1;
 }
