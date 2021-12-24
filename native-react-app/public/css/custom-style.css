@@ -1,0 +1,8 @@
+.top-banner.big .content, .top-banner.fullheight .index-overlay .content {
+    margin: 5% auto;
+}
+
+.index-overlay {
+    background-color: #00000091;
+    width: 100%;
+}
