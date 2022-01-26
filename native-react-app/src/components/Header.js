@@ -10,8 +10,9 @@ import '../public/css/style.css?v=9'
 import '../public/css/custom-style.css'
 
 
-
 function Header() {
+  const thisIsAVariableForHomeText = 'Home';
+
   return (
     <>
     {/* <!--HEADER--> */}
@@ -32,7 +33,7 @@ function Header() {
                       <nav>
                           <ul className="main-menu">
                               <li className="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children "><a
-                                      href="index.html">Home</a>
+                                      href="index.html">{thisIsAVariableForHomeText}</a>
                               </li>
                               <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a
                                       href="#">Projects</a>
